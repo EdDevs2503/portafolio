@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Header */
+.hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.navbar .dropdown-menu a:hover {
+    color: #616161 !important;
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
+.icon-navbar {
+    height: 50px;
+    fill: #6c757d;
+}
+.bored {
+    border: solid red 1px;
+}
+.header-d {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+    background-image: url("../media/bg-header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-content {
+    height: calc(100% - 50px);
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-d {
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.75);
+}
+.header-content img {
+    width: 200px;
+}
+.header-content h1, h2, h4 {
+    color: #333333;
+}
+.btn-outline-dark {
+    border: #333333 1px solid;
+    color: #333333;
+}
+.colored {
+    color: red;
+}
+.features-d {
+    min-height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.portafolio-d {
+    min-height: 700px;
+}
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+.mini-footer {
+    background:#192027;
+    text-align:center;
+    padding:32px 0
+   }
+   .mini-footer p {
+    margin:0;
+    line-height:26px;
+    font-size:15px;
+    color:#999
+   }
+   .mini-footer p a {
+    color:#5867dd
+   }
+   .mini-footer p a:hover {
+    color:#34bfa3
+   }
+.gallery_product
+{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.correo-d {
+    height: 275px;
+}
