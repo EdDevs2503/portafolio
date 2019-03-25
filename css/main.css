@@ -137,6 +137,8 @@
 }
 .gallery_product img {
     width: 250px;
+    cursor: pointer;
+    
 }
 .correo-d {
     height: 275px;
